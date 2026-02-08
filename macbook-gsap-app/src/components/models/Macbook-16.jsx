@@ -32,7 +32,7 @@ export default function MacbookModel16(props) {
         }
       }
     })
-  },[color,scene])
+  },[color,scene]);
 
   return (
     <group {...props} dispose={null}>
